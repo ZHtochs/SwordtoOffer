@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a589762-3f20-469b-bc4f-56a9cb42f692" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/ListNode.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/ReverseList$ListNode.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/ReverseList.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/main.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/mergeList.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/minNumberInRotateArray.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/offer5.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/reOrderArray.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/swordOffer2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/swordOffer3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/sort/swordtoOffer/swordtoOffer1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sort.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/ListNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/ReverseList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/TreeNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/mergeList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/minNumberInRotateArray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/offer5.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/reOrderArray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/swordOffer2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/swordOffer3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/swordtoOffer/swordtoOffer1.java" />
-    </list>
+    <list default="true" id="1a589762-3f20-469b-bc4f-56a9cb42f692" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,16 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mergeList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/swordtoOffer/mergeList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="minNumberInRotateArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/swordtoOffer/minNumberInRotateArray.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,8 +84,18 @@
       <file leaf-file-name="IsPopOrder_21.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/swordtoOffer/IsPopOrder_21.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="378">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/swordtoOffer/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -558,12 +525,12 @@
       <workItem from="1536669778053" duration="8895000" />
       <workItem from="1537155381454" duration="6000" />
       <workItem from="1537445431616" duration="2370000" />
-      <workItem from="1538728000522" duration="10328000" />
+      <workItem from="1538728000522" duration="10725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95731000" />
+    <option name="totallyTimeSpent" value="96128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -735,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordtoOffer/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/swordtoOffer/mergeList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -822,10 +781,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/swordtoOffer/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/swordtoOffer/IsPopOrder_21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>
