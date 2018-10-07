@@ -11,20 +11,17 @@ import java.util.ArrayList;
  **/
 public class FindPath_24 {
     ArrayList<ArrayList<Integer>> arrayLists = new ArrayList<>();
-
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
 
         if (root == null) {
             return arrayLists;
         }
         ArrayList<Integer> arrayList = new ArrayList<>();
-        int sum = 0;
-        findSinglePath(root, sum, target, arrayList);
+        arrayList.add(root.val);
+        findSinglePath(root, root.val, target, arrayList);
         return arrayLists;
     }
-
     public void findSinglePath(TreeNode node, int sum, int target, ArrayList<Integer> arrayList) {
-        sum += node.val;
         if (sum != target) {
             if (node.left != null) {
                 ArrayList<Integer> r = (ArrayList<Integer>) arrayList.clone();
@@ -41,6 +38,8 @@ public class FindPath_24 {
                 arrayLists.add((ArrayList<Integer>) arrayList.clone());
             }
         }
+
     }
+
 
 }

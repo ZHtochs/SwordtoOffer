@@ -10,34 +10,32 @@ import java.util.ArrayList;
  * @create: 2018-10-06 15:25
  **/
 public class FindPath_24_2 {
-    ArrayList<ArrayList<Integer>> lists = new ArrayList<>();
-
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
-        if (root == null) {
-            return lists;
-        }
-        ArrayList<Integer> arrayList = new ArrayList<>();
-
-        findSinglePath(root, root.val, target, arrayList);
-        return lists;
+        ArrayList<ArrayList<Integer>> arr = new ArrayList<ArrayList<Integer>>();
+        if (root == null)
+            return arr;
+        ArrayList<Integer> a1 = new ArrayList<Integer>();
+        int sum = 0;
+        pa(root, target, arr, a1, sum);
+        return arr;
     }
 
-    public void findSinglePath(TreeNode node, int sum, int target, ArrayList<Integer> arrayList) {
-        if (node==null)
+    public void pa(TreeNode root, int target, ArrayList<ArrayList<Integer>> arr, ArrayList<Integer> a1, int sum) {
+        if (root == null)
             return;
-        sum+=node.val;
-        if(sum==target){
-            if(node.left==null && node.right==null){
-                arrayList.add(node.val);
-                lists.add((ArrayList<Integer>) arrayList.clone());
-                arrayList.remove(arrayList.size()-1);//退回上一个节点
-            }
-        return;
-        }
-        arrayList.add(node.val);
-        findSinglePath(node.left,sum,target,arrayList);
-        findSinglePath(node.right,sum,target,arrayList);
-        arrayList.remove(arrayList.size()-1);
-    }
+        sum += root.val;
 
+        if (root.left == null && root.right == null) {
+            if (sum == target) {
+                a1.add(root.val);
+                arr.add(new ArrayList<Integer>(a1));
+                a1.remove(a1.size() - 1);
+            }
+            return;
+        }
+        a1.add(root.val);
+        pa(root.left, target, arr, a1, sum);
+        pa(root.right, target, arr, a1, sum);
+        a1.remove(a1.size() - 1);
+    }
 }
