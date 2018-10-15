@@ -33,7 +33,7 @@ public class GetLeastNumbers_29 {
 
     public static void main(String[] args) {
         GetLeastNumbers_29 getLeastNumbers_29=new GetLeastNumbers_29();
-        int[] a={4,5,1,6,2,7,3,8};
+        int[] a={1,2,3,4,5,6,7,8};
         getLeastNumbers_29.GetLeastNumbers_Solution(a,4);
     }
 }
