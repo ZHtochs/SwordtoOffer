@@ -1,7 +1,7 @@
 package swordtoOffer.question10_19;
 /*输入两个单调递增的链表，输出两个链表合成后的链表，当然我们需要合成后的链表满足单调不减规则。
 * */
-import swordtoOffer.entity.ListNode;
+import swordtoOffer.constructure.ListNode;
 
 public class mergeList_16 {
 

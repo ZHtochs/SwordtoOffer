@@ -1,6 +1,6 @@
 package swordtoOffer.question1_9;
 
-import swordtoOffer.entity.ListNode;
+import swordtoOffer.constructure.ListNode;
 
 import java.util.ArrayList;
 /*输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。*/

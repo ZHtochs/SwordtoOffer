@@ -1,6 +1,6 @@
 package swordtoOffer.question30_39;
 
-import swordtoOffer.entity.TreeNode;
+import swordtoOffer.constructure.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

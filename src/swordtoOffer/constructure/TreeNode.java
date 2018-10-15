@@ -1,4 +1,4 @@
-package swordtoOffer.entity;
+package swordtoOffer.constructure;
 
 public class TreeNode {
     public int val = 0;

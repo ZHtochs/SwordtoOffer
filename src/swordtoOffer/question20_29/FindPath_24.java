@@ -1,6 +1,6 @@
 package swordtoOffer.question20_29;
 
-import swordtoOffer.entity.TreeNode;
+import swordtoOffer.constructure.TreeNode;
 
 import java.util.ArrayList;
 

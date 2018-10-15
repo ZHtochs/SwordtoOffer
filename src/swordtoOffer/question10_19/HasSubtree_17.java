@@ -1,6 +1,6 @@
 package swordtoOffer.question10_19;
 
-import swordtoOffer.entity.TreeNode;
+import swordtoOffer.constructure.TreeNode;
 
 public class HasSubtree_17 {
     public static boolean HasSubtree(TreeNode root1, TreeNode root2) {

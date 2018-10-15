@@ -17,7 +17,7 @@ package swordtoOffer.question10_19;
     	11 9 7  5
 * */
 
-import swordtoOffer.entity.TreeNode;
+import swordtoOffer.constructure.TreeNode;
 
 /**
  * @program: sort

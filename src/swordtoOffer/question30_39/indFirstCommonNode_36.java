@@ -1,6 +1,6 @@
 package swordtoOffer.question30_39;
 
-import swordtoOffer.entity.ListNode;
+import swordtoOffer.constructure.ListNode;
 
 /**输入两个链表，找出它们的第一个公共结点。
  * @program: sort
